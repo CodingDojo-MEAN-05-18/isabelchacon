@@ -38,6 +38,10 @@ class Sensei extends Ninja{
         return this;
     }
 
+    showStats(){
+        console.log("Name: "+this.name+", Health: "+this.health+", Speed: "+this.speed+", Strength: "+this.strength+" Wisdom: "+this.wisdom);
+        return this; 
+    }
 }
 
 var ana = new Ninja("Ana");
