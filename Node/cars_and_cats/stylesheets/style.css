@@ -1,0 +1,10 @@
+/*My Style Sheet*/
+#cars img, #cats img{
+    width: 400px;
+    vertical-align: top;
+}
+
+.field { 
+    background-color: red;
+    margin-bottom: 20px;
+}
